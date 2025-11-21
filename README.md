@@ -4,4 +4,8 @@ This project serves as an educational example to demonstrate **Runtime Polymorph
 
 The application simulates a Starfleet Maintenance Bay that can run diagnostics on different types of spaceships (`StarshipCruiser`, `Starfighter`) without knowing their specific class at compile time.
 
+Test using:
+```bash
+mvn compile exec:java -Dexec.mainClass="com.starfleet.command.StarfleetCommand"
+```
 ***
