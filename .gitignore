@@ -36,3 +36,5 @@ Thumbs.db
 
 Notes*.txt
 
+# Maven Wrapper Cache
+.mvn/wrapper/dist/
